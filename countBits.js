@@ -12,8 +12,8 @@ var countBits = function(n) {
 
 countBits = n => n.toString(2).split('0').join('').length;
 
+//Sumamos los elementos y como son 0's y 1's, la suma es el resultado
 var countBits = function(n) {
-  // Program Me
   return n.toString(2).split("").reduce((a,b) => parseInt(a)+parseInt(b),0);
 };
 
